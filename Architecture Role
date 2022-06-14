@@ -1,0 +1,28 @@
+Gerrell Bones
+Intro to AI Project 1
+Architecture Role:
+Design of the solution-
+Explanation of the Goal: The goal is to create a AI that is able to correctly play and win the game of Checkers. There are 3 different versions of the Goal, Human vs Human, AI vs Human, AI vs AI. The main focus is to be able to allow for AI vs AI to run correctly and gain efficiency in its program through the game timeframe itself.
+Things that need to be implemented are the basic array of movements that are available within the given array/gameplay field/boardgame area(black and red squares) any version or variation to the actual playing field of the game. 
+Materials included:
+An 8 x 8 board of checkers is used with two colors one for each opponent. 
+The movements will be recorded through a X & Y axis, the movements will be recorded and updated by choice of the user/AI. The movements will be constricted to a certain amount of floor patterns including below
+1. Only one jump is possible per move. 
+2. Forward move is only allowed for each opponent. 
+3. When a player jumps over another opponent’s piece, the piece is not removed by the 
+opponent. 
+4. There are two types of moves Step or Jump. 
+5. The pieces always move diagonally only on dark colored squares. 
+6. When a player’s piece reaches the last row on the opponent’s side of the board, they can use 
+one of their captured pieces to crown the piece as a king. 
+7. The first player who has a piece promoted to king wins immediately. 
+These will determine are constrictions towards the players movements, and also allow for strategy to be involved.
+
+Objective: 
+The objective of the game is to get as many pieces as you can from the opponent. 
+How to Win:
+The game can be won when the opponent is unable to make a move. This can be done in two ways: 
+The entirety of a player’s pieces was captured by the opponent (when the piece is a King)  
+
+
+The goal is to create a solid a Human vs Human foundation of gameplay, this will allow for us to have the rules and constriction completed, and manually test them. Then we will implement the AI by using the rules and constriction of movements to allow the AI to develop and make movements on its own design. The foundation of the goal relies on the Human vs Human aspect as we need it to be able to create the foundation of everything in regards to trying to allow the AI to be as advanced in the Game/Goal. 
